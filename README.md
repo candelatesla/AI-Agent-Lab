@@ -57,6 +57,16 @@ In Google Colab:
 pip install langchain langgraph langchain-groq sentence-transformers chromadb
 pip install "langchain-community>=0.2.0"
 ```
+## 📁 Datasets
+
+The Fundraising Intelligence Agent uses the following dataset:
+
+* [Fundraising Data](https://www.kaggle.com/datasets/michaelpawlus/fundraising-data) - Comprehensive fundraising dataset from Kaggle containing donor information, campaign data, and engagement metrics.
+
+To use this dataset:
+1. Download from Kaggle
+2. Place CSV files in the `fundraising_agent/data/` directory
+3. Run the notebook to process and embed the data
 
 ## 🧪 Example Questions You Can Ask
 
